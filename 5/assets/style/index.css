@@ -1,0 +1,262 @@
+@import"base.css";
+
+body{
+    background-color: #eff0f3;
+    color: rgb(63, 73, 107);
+    
+}
+
+header{
+    min-width: 100%;
+    background-color: #009218;
+    overflow: hidden;
+
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    margin-right: 0px;
+    height: 56px;
+}
+.title h1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffff;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+
+nav {
+    text-align: right;
+    height: 56px;
+
+}
+
+nav ul{
+    list-style: none;
+    font-size: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    line-height: 56px;
+    cursor: default;
+}
+
+nav ul li a {
+    font-size: 16px;
+    color: #ffff;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: .2px;
+    text-transform: none;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li + li {
+    margin-left: 30px;
+}
+
+
+.search-center{
+    width: 100%;
+    height: 100%;
+    line-height: 56px;
+    align-items: center;
+}
+.search-bar {
+    margin-top: calc(40px - 32px);
+    float: left;
+    width: 35%;
+    height: 40px;
+    line-height: 56px;
+    background-color: transparent;
+}
+
+.tint {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,.35);
+    border: 1px solid #1313130f;
+    border-radius: 16px;
+    z-index: 555;
+}
+.search-bar input[type=text] {
+    color: white;
+    margin: 0 auto;
+    background-color: transparent;
+    width: 85%;
+    float: left;
+    
+}
+
+::placeholder {
+    color: #cdcdcd ;
+}
+
+.search-bar button {
+    margin-right: 15px;
+    text-align: left;
+    background: transparent;
+    float: left;
+    cursor: pointer;
+}
+.search-bar button i{
+    
+    color: #cdcdcd;
+    font-size: 15px;
+}
+
+
+
+.center {
+    width: 100%;
+    height: calc(100vh - 56px - 240px );
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+
+table {
+    margin-top: 0px;
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    text-align: left;
+    line-height: 60px;
+    border-collapse: separate;
+    border-spacing: 0 12px; 
+    font-size: 16px;
+   
+    
+}
+
+
+tr {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(94, 94, 94, 0.933);
+   
+}
+
+
+tr:first-child {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+th {
+    color: rgb(129, 129, 129);
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.letters {
+    width: 10%;
+    text-align: center;
+
+}
+.letters p {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 15px;
+    margin-top: calc(60px - 50px - 5px);
+    border-radius: 64px;
+   
+}
+
+
+.data-types{
+    width: 20%;
+
+}
+
+.total {
+    width: 15%;
+}
+
+.last-seven-days{
+    width: 20%;
+}
+
+.latest-record {
+    width: 20%;
+}
+
+.show-more {
+    width: 15%;
+    text-align: center;
+  
+}
+
+.show-more p {
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: calc(60px - 50px - 5px);
+    border-radius: 64px;
+    background-color:rgb(240, 240, 240);
+    color: rgb(99, 99, 99);
+}
+
+#u p{
+    color: #0669a2;
+    background-color: #d1edfd;
+}
+
+#a p {
+    color: #c3007a;
+    background-color: #ffd7f0;
+}
+
+#c p {
+    color: #1d8600;
+    background-color: #deffd4;
+}
+
+#m p {
+    color: #451cff;
+    background-color: #e6e0ff;
+}
+
+#v p {
+    color: #ffcd00;
+    background-color: #fff7d8;
+}
+
+
+.heading {
+    margin-top: 60px;
+    width: 260px;
+    height: 80px;
+    line-height: 80px;
+    text-align: left;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
